@@ -11,31 +11,31 @@ const products = [
     id: 2,
     name: 'Product 2',
     price: 120,
-    imageUrl: '/images/product2.jpg',
+    imageUrl: '/images/product3.jpg',
   },
   {
     id: 3,
     name: 'Product 3',
     price: 80,
-    imageUrl: '/images/product2.jpg',
+    imageUrl: '/images/product4.jpg',
   },
   {
     id: 4,
     name: 'Product 4',
     price: 150,
-    imageUrl: '/images/product2.jpg',
+    imageUrl: '/images/product5.jpg',
   },
   {
     id: 5,
     name: 'Product 5',
     price: 90,
-    imageUrl: '/images/product2.jpg',
+    imageUrl: '/images/product6.jpg',
   },
   {
     id: 6,
     name: 'Product 6',
     price: 110,
-    imageUrl: '/images/product2.jpg',
+    imageUrl: '/images/product7.jpg',
   },
 ];
 
