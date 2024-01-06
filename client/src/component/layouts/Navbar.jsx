@@ -100,7 +100,7 @@ const Navbar = () => {
         {categories.map((category) => (
           <li key={category.name} className="relative group inline-block">
             <Link
-              to={`/search?query=${category.name}`}
+              to={`/search?category=${category.name}`}
               className="uppercase font-medium hover:text-orange-500"
             >
               {category.name}
@@ -111,7 +111,7 @@ const Navbar = () => {
                   <div key={subcategory.name}>
                     <Link
                       key={subcategory.name}
-                      to={`/search?query=${subcategory.name}`}
+                      to={`/search?category=${subcategory.name}`}
                       className="font-medium hover:text-orange-500 whitespace-nowrap"
                     >
                       {subcategory.name}

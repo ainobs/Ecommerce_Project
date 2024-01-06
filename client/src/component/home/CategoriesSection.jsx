@@ -19,7 +19,7 @@ const CategorySection = () => {
         <div className="overflow-x-auto flex space-x-4 no-scrollbar lg:justify-center">
           {categories.map((category) => (
             <Link
-              to={`/search?query=${category.name}`}
+              to={`/search?category=${category.name}`}
               key={category.id}
               className="flex-shrink-0 relative max-w-xs rounded overflow-hidden transition duration-300"
             >
