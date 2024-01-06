@@ -36,6 +36,7 @@ const Search = () => {
       });
       console.log('result', result);
       setProducts(result);
+      setCurrentPage(1);
     };
     fetchProduct();
   }, [query, category, minPrice, maxPrice, size, color]);
