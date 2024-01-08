@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { blackIcon } from '../../styles/icon';
 import Search from '../Search';
 import { categories } from '../../constant/categories';
+import img from '../../../public/images/logo.png';
 
 const NavbarDashboard = () => {
   return (
@@ -12,7 +13,7 @@ const NavbarDashboard = () => {
       {/* First Row: Logo, Search, Sign Up/Login */}
       <div className="flex items-center justify-between p-4  md:px-8">
         <Link to="/" className="text-xl font-bold text-orange-500">
-          Your Logo
+        <img src={img} />
         </Link>
         <Search />
         <div className="flex gap-4 items-center">

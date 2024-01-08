@@ -7,6 +7,7 @@ import { categories } from '../../constant/categories';
 import useCart from '../../hooks/useCart';
 import useAuth from '../../hooks/useAuth';
 import { useEffect, useRef, useState } from 'react';
+import img from '../../../public/images/logo.png';
 
 const Navbar = () => {
   const { user, logout } = useAuth();
@@ -34,11 +35,11 @@ const Navbar = () => {
   }, []);
   return (
     <nav className="shadow mb-4 z-10">
-      <div className="bg-black text-center text-white">Welcome to ...</div>
+      {/* <div className="bg-black text-center text-white">Welcome to ...</div> */}
       {/* First Row: Logo, Search, Sign Up/Login */}
       <div className="flex items-center justify-between p-4  md:px-8">
         <Link to="/" className="text-xl font-bold text-orange-500">
-          Your Logo
+        <img src={img} />
         </Link>
         <Search />
         <div className="flex gap-4 items-center">

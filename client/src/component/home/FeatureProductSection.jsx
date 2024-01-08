@@ -49,10 +49,7 @@ const FeatureProductSection = () => {
             Feature Products
           </h2>
           <p className=" md:w-2/3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
-            metus vel arcu. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Nullam ac metus vel arcu.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Nullam ac metus vel arcu.
+          "Discover our handpicked selection of exquisite products at Vik! Explore our curated collection of must-have items carefully chosen to bring luxury, functionality, and style to your everyday life.
           </p>
         </div>
 
