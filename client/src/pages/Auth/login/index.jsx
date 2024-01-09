@@ -175,7 +175,7 @@ const Login = () => {
           to="/"
           className="absolute top-8 right-8 text-2xl font-bold text-orange-500"
         >
-          Logo
+        
         </Link>
         <img
           src="/images/login.jpg"

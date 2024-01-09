@@ -13,11 +13,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="md:w-1/4">
             <h3 className="text-3xl font-semibold text-orange-500 mb-4">
-              Company Name
+              Vik's
             </h3>
             <p className="text-gray-400 mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
-              metus vel arcu.
+              Our commitment to excellence extends beyond our products; we're dedicated to providing a seamless shopping experience and unparalleled customer service
             </p>
           </div>
           <div className="md:w-1/4 mt-6 md:mt-0">
@@ -97,7 +96,7 @@ const Footer = () => {
 
         {/* Copyright Information */}
         <div className="mt-8 text-center text-gray-400">
-          &copy; 2023 Company Name. All rights reserved.
+          &copy; 2023 Vik's. All rights reserved
         </div>
       </div>
     </footer>
